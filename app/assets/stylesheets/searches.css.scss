@@ -10,25 +10,26 @@
 
 //WELCOME PAGE//
 .welcome-header {
-	text-align: center;
-	margin-top: 145px;
-	font-size: 200%;
+    text-align: center;
+    margin-top: 145px;
+    font-size: 200%;
 }
 
 .search-bar {
-	text-align: center;
-	margin-top: 80px;
+    text-align: center;
+    margin-top: 80px;
 }
 
 #results {
-	margin-left: 280px;
-	font-size: 40px;
-	margin-top: 100px;
+    text-align: center;
+    margin:0 auto 0 auto ;
+    font-size: 40px;
+    margin-top: 100px;
 }
 
 .thumbnail {
-	width: 80px;
-	display: inline;
+    width: 80px;
+    display: inline;
 }
 
 .home-link {
@@ -36,8 +37,8 @@
 }
 
 .description p {
-	font-size: 9px;
-	text-align: center;
+    font-size: 9px;
+    text-align: center;
 }
 
 
@@ -45,39 +46,40 @@
 
 //WALL PAGE//
 #results-header {
-	text-align:center;
-	margin-top: 100px;
-	
+    text-align:center;
+    margin-top: 100px;
+
 }
 
 .profile-image {
-  display: inline;
-	width: 16%;
+    display: inline;
+    width: 118px;
 }
 
 .profile-name {
-	font-size: 60px;
-	margin-top: 30px;
+    font-size: 60px;
+    margin-top: 30px;
 }
 
 #results-container {
-	margin-top: 0px;
+    margin-top: 0px;
 }
 
 .result {
-	margin-top: 115px;
+    margin-top: 115px;
 }
 
 .result-photo {
-	float: left;
-	width: 100px;
-	display: inline;
+    float: left;
+    width: 100px;
+    display: inline;
+    border: solid 1px #CCC;
 }
 
 .result-text {
-	margin-left: 150px;
-	font-size: 18px;
-	line-height: 22px;
+    margin-left: 150px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 

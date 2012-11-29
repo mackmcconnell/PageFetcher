@@ -2,7 +2,7 @@
   <h1>PageFetcher</h1>
 </div>
 
-<div class="search-bar"
+<div class="search-bar">
   <%= form_for(@search, :remote => true ) do |f| %>
     <% if @search.errors.any? %>
       <ul>
@@ -16,9 +16,12 @@
     <%= f.text_field :search_id, :placeholder => "Search Based On ID" %>
     <button type="submit" class="btn" style = "margin-bottom: 10px; margin-left: 4px;"><i class="icon-plus-sign"></i></button>
   </div>
+  <div class="description">
+    <p>Entrez Facebook UID (i.e. 188091757763). Voyez la magique!</p>
+  </div>
 </div>
   <% end %>
 
 
-<div id="results">
-</div>
+  <div id="results">
+  </div>

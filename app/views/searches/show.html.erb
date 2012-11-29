@@ -1,9 +1,7 @@
 <div id="results-header">
-  <div class="profile-image">
-    <img src="http://graph.facebook.com/<%=@results["id"]%>/picture">
-  </div>
+  <img class="profile-image" src="http://graph.facebook.com/<%=@results["id"]%>/picture">
   <div class="profile-name">
-    <%= @results["feed"]["data"][0]["from"]["name"] %>
+    <h2><%= @results["feed"]["data"][0]["from"]["name"] %></h2>
   </div>
 </div>
 

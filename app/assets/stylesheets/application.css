@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+
+
+body {
+	background: url('white_wall.png');
+	background-repeat: repeat;
+}
+

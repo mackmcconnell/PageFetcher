@@ -1,0 +1,54 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.wrapper {
+  width: 55%;
+  margin: 0 auto;
+}
+
+//WELCOME PAGE//
+.welcome-header {
+	text-align: center;
+	margin-top: 145px;
+	font-size: 200%;
+}
+
+.search-bar {
+	text-align: center;
+	margin-top: 80px;
+}
+
+#results-header {
+	
+}
+
+.profile-image {
+  display: inline;
+
+}
+
+.profile-name {
+	display: inline;
+
+}
+
+#results-container {
+	margin-top: 50px;
+}
+
+.result {
+	margin-top: 115px;
+
+}
+
+.result-photo {
+	float: left;
+}
+
+.result-text {
+	margin-left: 190px;
+}
+
+

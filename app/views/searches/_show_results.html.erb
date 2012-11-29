@@ -1,0 +1,4 @@
+<div id="results">
+	<img src="http://graph.facebook.com/<%=@results["id"]%>/picture">
+	<%= link_to "#{@results["feed"]["data"][0]["from"]["name"]}", search_path(@search) %>
+</div>

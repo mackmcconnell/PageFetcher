@@ -27,7 +27,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'koala'
 gem 'httparty'
 gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS

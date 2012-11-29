@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(:version => 20121128045439) do
 
   create_table "searches", :force => true do |t|
-    t.integer  "search_id"
+    t.string   "search_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
